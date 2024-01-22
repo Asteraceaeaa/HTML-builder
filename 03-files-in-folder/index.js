@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { access } = require('fs/promises');
 const path = require('path');
 const folderPath = path.join(__dirname, 'secret-folder');
 fs.readdir(folderPath, (err, files) => {
